@@ -10,10 +10,10 @@ class LoginScreen extends StatelessWidget {
     // ボタンだけ表示
     return new Scaffold(
       body: new Center(
-        child: new FlatButton(
+        child: new RaisedButton(
           onPressed: loginFunc,
           child: new Text('ログイン'),
-          color: Colors.blue,
+          color: Colors.lightBlueAccent,
         ),
       ),
     );
